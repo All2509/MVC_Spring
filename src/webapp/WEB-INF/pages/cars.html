@@ -10,15 +10,15 @@
 <table border="1">
   <thead>
   <tr>
-    <th>Model</th>
     <th>Id</th>
+    <th>Model</th>
     <th>Color</th>
   </tr>
   </thead>
   <tbody>
   <tr th:each="car : ${cars}">
-    <td th:text="${car.model}"></td>
     <td th:text="${car.id}"></td>
+    <td th:text="${car.model}"></td>
     <td th:text="${car.color}"></td>
   </tr>
   </tbody>
